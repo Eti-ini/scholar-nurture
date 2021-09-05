@@ -408,6 +408,8 @@ li{
       width: 300px;
       padding: 30px;
       margin-bottom: 30px;
+      border: none;
+      outline: none;
     }
     .input-text{
       width: 80%;
