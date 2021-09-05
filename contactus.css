@@ -1,0 +1,424 @@
+
+body{
+  
+  padding: 0;
+  contain: content;
+  overflow-x: hidden; 
+  
+}
+footer{
+  margin: 0;
+}
+.fifth-sector, .first-sector{
+  margin: 0;
+}
+section{
+  margin: 40px 0;
+}
+label{
+  
+font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 26px;
+display: flex;
+align-items: center;
+
+color: #04172A;
+}
+.txt::placeholder{
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+
+  color: rgba(4, 23, 42, 0.3);
+
+}
+
+.banner-div{
+  position: relative;
+  height: 80vh;
+  width: 100%;
+}
+.banner-div::before{
+  content: "";
+  background-image: url("contactpaper.png");
+  background-size: cover;
+  position: absolute;
+  filter: brightness(40%);
+  top: 0;
+  right: 0;
+  bottom: 0px;
+  left: 0px;
+} 
+
+.banner{
+    position: relative;
+    top: 24%;
+    text-align: center;
+}
+.first-sector h1{
+    justify-items: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 80px;
+
+
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.first-sector p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    
+    color: #FFFFFF;
+}
+.btn{
+  background-color: #00A39A;
+  height: 44px;
+  text-align: center;
+  width: 120px;
+  color: #fff;
+  font-size: 12px;
+  font-size: 800;
+  font-family: "Open Sans", sans-serif;
+}
+a{
+  color: #fff;
+}
+/* first-sector */
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 800;
+  font-size: Manrope;
+  color: #00A39A;
+  margin-left: 4%;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: #fff;
+}
+#nurture{
+  color: #00A39A;
+}
+.navbar-dark .navbar-nav .home{
+  color: #00A39A;
+}
+.navbar-brand {
+  font-size: 2.2rem;
+  font-weight: 800;
+  font-size: Manrope;
+  color: #00A39A;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: #fff;
+}
+#nurture{
+  color: #00A39A;
+}
+.navbar-dark .navbar-nav .home{
+  color: #00A39A;
+}
+.contact{
+  padding-right: 260px;
+}
+.sign-up{
+  padding: 0 20px;
+}
+#home{
+  color: #00A39A;
+}
+
+
+.nurture{
+  color: #fff;
+}
+.contact{
+  margin-right: 90px;
+}
+/* second sector */
+.second img{
+  position: relative;
+  right: 5%;
+}
+.second a{
+  color: #00A39A;
+  text-decoration: underline;
+}
+.container-fluid{
+  background: rgba(0, 163, 154, 0.05);
+}
+.camp-text{
+    background-color: rgba(0, 163, 154, 0.05);;
+    padding: 9%;
+   padding-top: 30px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 37px;
+    padding-right: 7%;
+
+    color: #041B32;
+    text-align: left;
+}
+.camp-image{
+    width: 720px;
+    height: 600px;
+}
+.contact-div{
+  width: 300px;
+  padding: 30px;
+  background-color: #fff;
+}
+.second h1{
+    padding: 20px 0;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+li{
+    padding: 10px 0;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #333333;
+}
+/* third-sector */
+.third{
+  text-align: center;
+}
+.third p{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #333333;
+
+}
+/* fourth sector */
+.subscribe h1{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  margin: 20px;
+  margin-top: 0;
+  color: #04172A;
+}
+
+.fourth{
+  background-color: #fff;
+}
+.submit{
+  text-align: center;
+  padding: 20px;
+  
+}
+.news{
+  margin-right: -4px;
+  padding: 2px;
+}
+.submit-btn{
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  /* margin-top: -4px; */
+  width: 12%;
+  height: 35px;
+}
+.subscribe input{
+  position: relative;
+  height: 35px;
+  display: inline-block;
+  width: 40%;
+}
+
+/* fifth-sector */
+.flex-container{
+  padding: 14px;
+  width: 100%;
+  justify-content: center;
+  background-color: #04172A;
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+
+}
+.flex-item{
+  padding: 20px;
+  color: #fff;
+  
+}
+.first-flex{
+    padding-right: 18%;
+}
+ul{
+  list-style: none;
+  padding: 10px;
+}
+li{
+  padding: 7px;
+  
+}
+.divider{
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  width: 85%;
+  height: 0;
+
+ 
+}
+.divider-container{
+    background-color: #04172A;
+    height: 20px;
+    justify-content: center;
+    display: flex;
+}
+.flex-item h3{
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+
+  color: #FFFFFF;
+}
+.flex-item li{
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 22px;
+
+  color: #FFFFFF;
+}
+.flex-item p{
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #FFFFFF;
+}
+.flex-mobile{
+  display: inline-flex;
+
+}
+.social{
+  padding: 5px;
+  padding-right: 20px;
+}
+
+  .input-text{
+      width: 600px;
+      display: inline-block;
+  }
+  .subscribe{
+      text-align: center;
+  }
+
+   /* foooter sector */
+
+   #footer p{
+    font-size: 1rem;
+    opacity: 0.7;
+    text-align: center;
+    padding: 14px;
+    padding-bottom: 0;
+    color: #fff;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+/* identical to box height */
+
+  }
+  #footer{
+    background-color: #04172A;
+    padding: 6px 0 6px 0;
+  }
+
+  /* Responsive designs */
+  @media (min-width: 300px) and (max-width: 700px){
+    .flex-mobile{
+      display: block;
+    }
+    .flex-item{
+    
+      position: relative;
+      padding: 10px;
+    
+    }
+    .first-flex{
+      padding-right: 0;
+    }
+    li{
+      padding: 2px;
+      font-size: 0.7rem;
+    }
+    .subscribe input{
+      width: 80%;
+      display: block;
+    }
+    .subscribe{
+      text-align: center;
+    }
+    .news{
+  
+      padding: 2px;
+    }
+    .submit-btn{
+      border-radius: 4px;
+      width: 30%;
+      padding: 12px;
+      margin-top: 30px;
+    }
+    .third p{
+      font-size: 120%;
+      padding: 20px;
+    }
+    .third h1{
+      font-size: 26px;
+    }
+    li{
+      font-size: 18px;
+    }
+    .contact-div{
+      border: 1px solid black;
+      width: 300px;
+      padding: 30px;
+      margin-bottom: 30px;
+    }
+    .input-text{
+      width: 80%;
+      display: block;
+      position: relative;
+      left: 10%;
+  }
+  }
+  @media (min-width: 300px) and (max-width: 700px){
+    .navbar-brand{
+      font-size: 25px;
+    }
+  }
