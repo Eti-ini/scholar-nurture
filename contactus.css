@@ -420,8 +420,8 @@ li{
       left: 10%;
   }
 .camp-image{
-    width: 400px;
-    height: 400px;
+    padding: 0, 30px;
+    height: 250px;
 }
 .bootcamp{
    text-align: center;
