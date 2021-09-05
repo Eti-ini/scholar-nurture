@@ -183,12 +183,8 @@ p{
 }
 .gitgoogle{
   margin-bottom: 50px;
-  display: flex;
-  justify-content: center;
 }
-.gitgoogle img{
-   margin-right: 20px;
-}
+
 .link2{
   text-align: center;
   margin-bottom: 30px;
